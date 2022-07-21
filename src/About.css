@@ -1,0 +1,161 @@
+.About {
+  text-align: center;
+}
+
+.About-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.photo {
+  width: 600px;
+  height: 500px;
+}
+.photoo {
+  width: 790px;
+  height: 400px;
+}
+
+.secondphoto {
+  width: 300px;
+  height: 300px;
+}
+
+.secondphotoo {
+  width: 300px;
+  height: 300px;
+}
+
+.secondphotooo {
+  width: 300px;
+  height: 300px;
+}
+
+.thirdphoto {
+  width: 300px;
+  height: 300px;
+}
+.thirdphotoo {
+  width: 300px;
+  height: 300px;
+}
+.thirdphotooo {
+  width: 300px;
+  height: 300px;
+}
+
+.fourthphoto {
+  width: 300px;
+  height: 300px;
+}
+
+.fourthphotoo {
+  width: 300px;
+  height: 300px;
+}
+
+.fourthphotooo {
+  width: 300px;
+  height: 300px;
+}
+
+.fifthphoto {
+  width: 300px;
+  height: 300px;
+}
+
+.fifthphotoo {
+  width: 300px;
+  height: 300px;
+}
+.fifthphotooo {
+  width: 300px;
+  height: 300px;
+}
+
+.fifthphotoooo {
+  width: 300px;
+  height: 300px;
+}
+
+.fifthphotooooo {
+  width: 300px;
+  height: 300px;
+}
+
+.fifthphotoooooo {
+  width: 300px;
+  height: 300px;
+}
+
+.sixthphoto {
+  width: 400px;
+  height: 400px;
+}
+
+.eightphoto {
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .About-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.About-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.About-link {
+  color: #61dafb;
+}
+
+.link {
+  text-decoration: none;
+  display: inline;
+  cursor: pointer;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.top-btn-style:hover {
+  animation: none;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
+}
